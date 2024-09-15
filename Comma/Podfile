@@ -1,0 +1,29 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Comma' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'paper-onboarding'
+  pod 'PTCardTabBar'
+  pod 'Firebase/Analytics'
+  pod 'NVActivityIndicatorView'
+  pod 'FirebaseCore'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
+  pod 'UITextView+Placeholder'
+  pod 'ASIACheckmarkView'
+
+  # Pods for Comma
+
+  target 'CommaTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'CommaUITests' do
+    # Pods for testing
+  end
+
+end

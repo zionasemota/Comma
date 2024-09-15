@@ -1,0 +1,6 @@
+framework module ASIACheckmarkView {
+  umbrella header "ASIACheckmarkView-umbrella.h"
+
+  export *
+  module * { export * }
+}

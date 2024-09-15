@@ -1,0 +1,6 @@
+framework module Pods_Comma {
+  umbrella header "Pods-Comma-umbrella.h"
+
+  export *
+  module * { export * }
+}
